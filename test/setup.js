@@ -1,0 +1,8 @@
+// Test setup file
+import { beforeEach } from 'vitest';
+
+// Reset DOM before each test
+beforeEach(() => {
+  document.body.innerHTML = '';
+  document.head.innerHTML = '';
+});

@@ -1,0 +1,19 @@
+{
+  "name": "gurukrupa-snacks-website",
+  "version": "1.0.0",
+  "description": "Gurukrupa Snacks - Indian street food website",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:ui": "vitest --ui"
+  },
+  "devDependencies": {
+    "@vitest/ui": "^1.0.0",
+    "axe-core": "^4.11.1",
+    "fast-check": "^3.15.0",
+    "jsdom": "^23.0.0",
+    "vitest": "^1.0.0",
+    "vitest-axe": "^0.1.0"
+  }
+}
