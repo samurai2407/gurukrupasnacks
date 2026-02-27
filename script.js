@@ -95,13 +95,13 @@ const menuData = [
 
 // Fun Facts Data
 const funFacts = [
+  "Fact: Gurukrupa Snacks has been serving Kalyan's favorite Kadak items and Aamchi Classics since 2014!",
   "Fact: The iconic Vada Pav was born right here in Maharashtra in 1966 outside Dadar Station!",
   "Fact: Misal Pav from Maharashtra was once recognized globally as the world's tastiest vegetarian dish.",
   "Samosas were originally called 'Sambosa' in the Middle East!",
   "The perfect Bhajiya requires exactly 7 minutes of frying!",
   "Street food vendors in Mumbai serve over 20 million people daily!",
   "Pav Bhaji was invented as a quick lunch for textile mill workers!",
-  "The word 'Pakoda' comes from the Sanskrit word 'pakvavata'!",
   "Mumbai sells over 2 million Vada Pavs every single day!"
 ];
 
