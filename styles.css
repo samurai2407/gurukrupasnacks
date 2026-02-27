@@ -10,7 +10,7 @@
   /* Brand Colors */
   --turmeric-yellow: #FDB913;
   --chutney-green: #7CB342;
-  --chili-red: #E53935;
+  --bhagwa-saffron: #FF671F;
   --rice-white: #FAFAFA;
   --charcoal: #333333;
   
@@ -19,7 +19,7 @@
   --background-accent: var(--turmeric-yellow);
   --text-primary: var(--charcoal);
   --text-inverse: var(--rice-white);
-  --accent-primary: var(--chili-red);
+  --accent-primary: var(--bhagwa-saffron);
   --accent-secondary: var(--chutney-green);
   
   /* Typography */
@@ -81,7 +81,7 @@ body {
 }
 
 .bg-chili {
-  background-color: var(--chili-red);
+  background-color: var(--bhagwa-saffron);
 }
 
 .bg-rice-white {
@@ -101,7 +101,7 @@ body {
 }
 
 .text-chili {
-  color: var(--chili-red);
+  color: var(--bhagwa-saffron);
 }
 
 .text-rice-white {
@@ -113,7 +113,7 @@ body {
 }
 
 .bg-chili-dark {
-  background-color: #d32f2f;
+  background-color: #E65100;
 }
 
 /* ============================================
@@ -140,7 +140,7 @@ body {
   left: 50%;
   width: 0;
   height: 2px;
-  background-color: var(--chili-red);
+  background-color: var(--bhagwa-saffron);
   transition: width var(--transition-normal) var(--ease-default),
               left var(--transition-normal) var(--ease-default);
 }
@@ -229,14 +229,14 @@ body {
 .filter-btn:focus {
   outline: none;
   ring: 4px;
-  ring-color: var(--chili-red);
+  ring-color: var(--bhagwa-saffron);
   ring-opacity: 0.5;
 }
 
 .filter-btn.active {
-  background-color: var(--chili-red);
+  background-color: var(--bhagwa-saffron);
   color: var(--rice-white);
-  border-color: var(--chili-red);
+  border-color: var(--bhagwa-saffron);
 }
 
 .menu-grid {
@@ -299,7 +299,7 @@ body {
 .item-price {
   font-size: 1.25rem;
   font-weight: 600;
-  color: var(--chili-red);
+  color: var(--bhagwa-saffron);
   margin: 0;
 }
 
@@ -386,7 +386,7 @@ body {
 
 /* Focus visible styles for keyboard navigation */
 *:focus-visible {
-  outline: 3px solid var(--chili-red);
+  outline: 3px solid var(--bhagwa-saffron);
   outline-offset: 2px;
 }
 
@@ -396,7 +396,7 @@ body {
   left: -9999px;
   z-index: 999;
   padding: 1rem;
-  background-color: var(--chili-red);
+  background-color: var(--bhagwa-saffron);
   color: var(--rice-white);
   text-decoration: none;
 }
