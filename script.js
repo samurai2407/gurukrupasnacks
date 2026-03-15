@@ -14,187 +14,187 @@ const CONFIG = {
 
 // Menu Data
 const menuData = [
-  // Aamchi Classics (Vada & Misal)
+  // आमची क्लासिक्स (वडा आणि मिसळ)
   {
     id: 1,
-    name: "Single Vada",
+    name: "सिंगल वडा",
     price: 15,
-    description: "The classic batata vada — crispy on the outside, fluffy spiced potato on the inside. Pure Maharashtrian soul food.",
-    funnyFact: "🔥 The foundation of every great Vada Pav starts here!",
+    description: "अस्सल बटाटा वडा — बाहेरून कुरकुरीत, आतून मसालेदार बटाट्याचा भरणा. खरा महाराष्ट्रीयन स्वाद.",
+    funnyFact: "🔥 प्रत्येक भन्नाट वडा पावची सुरुवात इथूनच होते!",
     category: "legends",
-    imageSrc: "https://placehold.co/600x400/FDB913/333333?text=Single+Vada"
+    imageSrc: "https://placehold.co/600x400/FDB913/333333?text=सिंगल+वडा"
   },
   {
     id: 2,
-    name: "Vada Pav",
+    name: "वडा पाव",
     price: 20,
-    description: "Gurukrupa's signature Thecha Vada Pav! Spicy potato fritter in soft pav with fiery thecha chutney that packs a punch.",
-    funnyFact: "💡 Our Thecha Vada Pav is what Kalyan dreams about!",
+    description: "गुरुकृपाचा स्पेशल ठेचा वडा पाव! मसालेदार बटाटा वडा मऊ पावमध्ये, झणझणीत ठेचा चटणीसोबत.",
+    funnyFact: "💡 कल्याणचा आवडता ठेचा वडा पाव!",
     category: "legends",
-    imageSrc: "https://placehold.co/600x400/8B0000/FFF9E6?text=Vada+Pav"
+    imageSrc: "https://placehold.co/600x400/8B0000/FFF9E6?text=वडा+पाव"
   },
   {
     id: 3,
-    name: "Vada Usal Pav",
+    name: "वडा उसळ पाव",
     price: 60,
-    description: "Crispy vada topped with spicy usal curry and served with buttery pav. A hearty combo that fills your belly and soul.",
-    funnyFact: "🍛 The ultimate power combo — vada meets usal!",
+    description: "कुरकुरीत वडा, त्यावर झणझणीत उसळ आणि मऊ पाव. पोट आणि मन दोन्ही भरणारा कॉम्बो.",
+    funnyFact: "🍛 वडा आणि उसळ — एकत्र आले की जादू होते!",
     category: "legends",
-    imageSrc: "https://placehold.co/600x400/FDB913/333333?text=Vada+Usal+Pav"
+    imageSrc: "https://placehold.co/600x400/FDB913/333333?text=वडा+उसळ+पाव"
   },
   {
     id: 4,
-    name: "Misal Pav",
+    name: "मिसळ पाव",
     price: 60,
-    description: "Spicy sprouted moth curry loaded with farsan, onions, and lemon. Served with soft pav to tame the heat.",
-    funnyFact: "🌶️ Kalyan's misal hits different — ask any local!",
+    description: "तिखट मटकीची उसळ, त्यावर फरसाण, कांदा आणि लिंबू. मऊ पावसोबत सर्व्ह केली जाते.",
+    funnyFact: "🌶️ कल्याणची मिसळ वेगळीच लागते — कोणत्याही स्थानिकाला विचारा!",
     category: "legends",
-    imageSrc: "https://placehold.co/600x400/8B0000/FFF9E6?text=Misal+Pav"
+    imageSrc: "https://placehold.co/600x400/8B0000/FFF9E6?text=मिसळ+पाव"
   },
   {
     id: 5,
-    name: "Misal",
+    name: "मिसळ",
     price: 50,
-    description: "The fiery sprouted moth curry on its own — no pav, just pure spicy goodness topped with crunchy farsan.",
-    funnyFact: "😤 For those who don't need pav to handle the heat!",
+    description: "फक्त झणझणीत मटकीची उसळ — पाव नाही, फक्त तिखट मजा. वरून कुरकुरीत फरसाण.",
+    funnyFact: "😤 ज्यांना तिखट सहन होतं त्यांना पावची गरज नाही!",
     category: "legends",
-    imageSrc: "https://placehold.co/600x400/FDB913/333333?text=Misal"
+    imageSrc: "https://placehold.co/600x400/FDB913/333333?text=मिसळ"
   },
   {
     id: 6,
-    name: "Kanda Pohe",
+    name: "कांदा पोहे",
     price: 20,
-    description: "Fluffy flattened rice tempered with mustard seeds, curry leaves, and topped with fresh onions and coriander. A Maharashtrian breakfast staple.",
-    funnyFact: "☀️ No Maharashtrian morning is complete without pohe!",
+    description: "मोहरी, कढीपत्ता, कांदा आणि कोथिंबीर घालून फोडणी दिलेले मऊ पोहे. महाराष्ट्रीयन नाश्त्याचा राजा.",
+    funnyFact: "☀️ पोहे नाही तर महाराष्ट्रीयन सकाळ नाही!",
     category: "legends",
-    imageSrc: "https://placehold.co/600x400/7CB342/FFF9E6?text=Kanda+Pohe"
+    imageSrc: "https://placehold.co/600x400/7CB342/FFF9E6?text=कांदा+पोहे"
   },
   {
     id: 7,
-    name: "Idli",
+    name: "इडली",
     price: 30,
-    description: "Soft, fluffy steamed rice cakes served with coconut chutney and sambar. Light, healthy, and utterly satisfying.",
-    funnyFact: "🫧 Perfectly steamed — soft as clouds, every single time!",
+    description: "मऊ, फुलकी वाफवलेली इडली, नारळ चटणी आणि सांबार सोबत. हलकी, आरोग्यदायी आणि चविष्ट.",
+    funnyFact: "🫧 ढगासारखी मऊ — प्रत्येक वेळी परफेक्ट!",
     category: "legends",
-    imageSrc: "https://placehold.co/600x400/FFF9E6/333333?text=Idli"
+    imageSrc: "https://placehold.co/600x400/FFF9E6/333333?text=इडली"
   },
 
-  // Garama Garam (Samosa & Kachori)
+  // गरमा गरम (समोसा आणि कचोरी)
   {
     id: 8,
-    name: "Samosa",
+    name: "समोसा",
     price: 15,
-    description: "Crispy golden pyramids stuffed with spiced potatoes and peas. The OG Indian snack that never disappoints.",
-    funnyFact: "🌍 Originated in the Middle East, perfected in India!",
+    description: "कुरकुरीत सोनेरी समोसा, आतमध्ये मसालेदार बटाटा आणि मटार. भारताचा सर्वात लोकप्रिय नाश्ता.",
+    funnyFact: "🌍 मध्य पूर्वेत जन्मला, भारतात परिपूर्ण झाला!",
     category: "triangles",
-    imageSrc: "https://placehold.co/600x400/FDB913/333333?text=Samosa"
+    imageSrc: "https://placehold.co/600x400/FDB913/333333?text=समोसा"
   },
   {
     id: 9,
-    name: "Samosa Pav",
+    name: "समोसा पाव",
     price: 20,
-    description: "A whole samosa tucked inside soft pav with tangy chutneys. The street food sandwich that started a revolution.",
-    funnyFact: "🥪 When samosa met pav, magic happened!",
+    description: "मऊ पावमध्ये पूर्ण समोसा, चटपटीत चटणीसोबत. स्ट्रीट फूडचा अनोखा सँडविच.",
+    funnyFact: "🥪 समोसा आणि पाव भेटले तेव्हा जादू झाली!",
     category: "triangles",
-    imageSrc: "https://placehold.co/600x400/8B0000/FFF9E6?text=Samosa+Pav"
+    imageSrc: "https://placehold.co/600x400/8B0000/FFF9E6?text=समोसा+पाव"
   },
   {
     id: 10,
-    name: "Bread Cutlet",
+    name: "ब्रेड कटलेट",
     price: 20,
-    description: "Crispy bread slices stuffed with spiced potato filling, coated in breadcrumbs and fried to golden perfection.",
-    funnyFact: "🍞 The snack that makes plain bread exciting!",
+    description: "मसालेदार बटाट्याचा भरणा भरलेले ब्रेड, ब्रेडक्रम्ब्स लावून सोनेरी तळलेले. कुरकुरीत आणि चविष्ट.",
+    funnyFact: "🍞 साध्या ब्रेडला मजेदार बनवणारा नाश्ता!",
     category: "triangles",
-    imageSrc: "https://placehold.co/600x400/FDB913/333333?text=Bread+Cutlet"
+    imageSrc: "https://placehold.co/600x400/FDB913/333333?text=ब्रेड+कटलेट"
   },
   {
     id: 11,
-    name: "Sadhi Kachori",
+    name: "साधी कचोरी",
     price: 20,
-    description: "Flaky, crispy pastry shell filled with a spiced moong dal mixture. Simple, classic, and dangerously addictive.",
-    funnyFact: "😎 The round cousin of samosa with more attitude!",
+    description: "कुरकुरीत, खुसखुशीत कचोरी, आतमध्ये मसालेदार मूग डाळीचा भरणा. साधी, क्लासिक आणि व्यसन लावणारी.",
+    funnyFact: "😎 समोसाचा गोल भाऊ — जास्त ऍटिट्यूड वाला!",
     category: "triangles",
-    imageSrc: "https://placehold.co/600x400/7CB342/FFF9E6?text=Sadhi+Kachori"
+    imageSrc: "https://placehold.co/600x400/7CB342/FFF9E6?text=साधी+कचोरी"
   },
   {
     id: 12,
-    name: "Dahi Kachori",
+    name: "दही कचोरी",
     price: 30,
-    description: "Crispy kachori topped with cool yogurt, tangy tamarind chutney, and spicy green chutney. Sweet, sour, and crunchy all at once.",
-    funnyFact: "🎭 Sweet, sour, spicy, crunchy — all in one bite!",
+    description: "कुरकुरीत कचोरीवर थंड दही, चिंचेची आंबट चटणी आणि हिरवी तिखट चटणी. गोड, आंबट आणि कुरकुरीत एकत्र.",
+    funnyFact: "🎭 गोड, आंबट, तिखट, कुरकुरीत — सगळं एका घासात!",
     category: "triangles",
-    imageSrc: "https://placehold.co/600x400/8B0000/FFF9E6?text=Dahi+Kachori"
+    imageSrc: "https://placehold.co/600x400/8B0000/FFF9E6?text=दही+कचोरी"
   },
 
-  // Kadak Items (Bhajji)
+  // कडक आयटम्स (भज्जी)
   {
     id: 13,
-    name: "Moong Bhajji",
+    name: "मूग भज्जी",
     price: 35,
-    description: "Crispy moong dal fritters seasoned with green chillies and spices. Crunchy, protein-packed, and perfect with chai.",
-    funnyFact: "💪 Protein-packed crunch — guilt-free snacking!",
+    description: "कुरकुरीत मूग डाळीची भज्जी, हिरवी मिरची आणि मसाल्यांसोबत. चहासोबत परफेक्ट कुरकुरीत नाश्ता.",
+    funnyFact: "💪 प्रोटीनयुक्त कुरकुरीत नाश्ता — बिनधास्त खा!",
     category: "crisp",
-    imageSrc: "https://placehold.co/600x400/FDB913/333333?text=Moong+Bhajji"
+    imageSrc: "https://placehold.co/600x400/FDB913/333333?text=मूग+भज्जी"
   },
   {
     id: 14,
-    name: "Batata Bhajji",
+    name: "बटाटा भज्जी",
     price: 30,
-    description: "Thin potato slices dipped in spiced gram flour batter and fried until golden and crispy. Simple yet irresistible.",
-    funnyFact: "🥔 Thin, crispy, and gone before you know it!",
+    description: "पातळ बटाट्याच्या कापा, मसालेदार बेसन पिठात बुडवून सोनेरी तळलेल्या. साधी पण अप्रतिम.",
+    funnyFact: "🥔 पातळ, कुरकुरीत आणि कळायच्या आत संपतात!",
     category: "crisp",
-    imageSrc: "https://placehold.co/600x400/7CB342/FFF9E6?text=Batata+Bhajji"
+    imageSrc: "https://placehold.co/600x400/7CB342/FFF9E6?text=बटाटा+भज्जी"
   },
   {
     id: 15,
-    name: "Kanda Bhajji",
+    name: "कांदा भज्जी",
     price: 30,
-    description: "Crispy onion fritters that crunch louder than your thoughts. The ultimate monsoon companion with a hot cup of chai.",
-    funnyFact: "☔ Best enjoyed during Maharashtra's monsoon season!",
+    description: "कुरकुरीत कांदा भज्जी — पावसाळ्यात गरम चहासोबत खाण्याची मजा काही वेगळीच.",
+    funnyFact: "☔ महाराष्ट्राच्या पावसाळ्यात सर्वात जास्त खाल्ली जाते!",
     category: "crisp",
-    imageSrc: "https://placehold.co/600x400/FDB913/333333?text=Kanda+Bhajji"
+    imageSrc: "https://placehold.co/600x400/FDB913/333333?text=कांदा+भज्जी"
   },
 
-  // Sweets & Farsan
+  // गोड आणि फरसाण
   {
     id: 16,
-    name: "Gulachi Jalebi",
+    name: "गुळाची जिलबी",
     price: 240,
-    description: "Crispy, syrup-soaked spirals of pure joy. Made fresh with traditional jaggery syrup for that authentic Maharashtrian sweetness.",
-    funnyFact: "🍯 Jaggery jalebi — the real desi way to satisfy your sweet tooth!",
+    description: "कुरकुरीत, गुळाच्या पाकात भिजवलेली जिलबी. अस्सल महाराष्ट्रीयन गोडवा — ताजी आणि चविष्ट.",
+    funnyFact: "🍯 गुळाची जिलबी — गोड खाण्याचा खरा देशी मार्ग!",
     category: "sweets",
-    imageSrc: "https://placehold.co/600x400/FDB913/333333?text=Gulachi+Jalebi"
+    imageSrc: "https://placehold.co/600x400/FDB913/333333?text=गुळाची+जिलबी"
   },
   {
     id: 17,
-    name: "Fafda",
+    name: "फाफडा",
     price: 280,
-    description: "Crispy, crunchy gram flour strips seasoned with ajwain and black pepper. A beloved Gujarati-Maharashtrian farsan staple.",
-    funnyFact: "📐 The crunchier the fafda, the happier the snacker!",
+    description: "कुरकुरीत बेसनाच्या पट्ट्या, ओवा आणि मिरपूड घालून बनवलेल्या. आवडता गुजराती-महाराष्ट्रीयन फरसाण.",
+    funnyFact: "📐 जितका कुरकुरीत फाफडा, तितका जास्त आनंद!",
     category: "sweets",
-    imageSrc: "https://placehold.co/600x400/7CB342/FFF9E6?text=Fafda"
+    imageSrc: "https://placehold.co/600x400/7CB342/FFF9E6?text=फाफडा"
   },
   {
     id: 18,
-    name: "Dhokla",
+    name: "ढोकळा",
     price: 240,
-    description: "Soft, spongy steamed gram flour cake tempered with mustard seeds and curry leaves. Light, tangy, and utterly moreish.",
-    funnyFact: "🧽 So soft and spongy, it practically melts in your mouth!",
+    description: "मऊ, स्पंजी वाफवलेला ढोकळा, मोहरी आणि कढीपत्त्याची फोडणी. हलका, आंबट-गोड आणि चविष्ट.",
+    funnyFact: "🧽 इतका मऊ की तोंडात विरघळतो!",
     category: "sweets",
-    imageSrc: "https://placehold.co/600x400/FDB913/333333?text=Dhokla"
+    imageSrc: "https://placehold.co/600x400/FDB913/333333?text=ढोकळा"
   }
 ];
 
 // Fun Facts Data
 const funFacts = [
-  "Fact: Gurukrupa Snacks has been serving Kalyan's favorite Kadak items and Aamchi Classics since 2014!",
-  "Fact: The iconic Vada Pav was born right here in Maharashtra in 1966 outside Dadar Station!",
-  "Fact: Misal Pav from Maharashtra was once recognized globally as the world's tastiest vegetarian dish.",
-  "Samosas were originally called 'Sambosa' in the Middle East!",
-  "The perfect Bhajiya requires exactly 7 minutes of frying!",
-  "Street food vendors in Mumbai serve over 20 million people daily!",
-  "Pav Bhaji was invented as a quick lunch for textile mill workers!",
-  "Mumbai sells over 2 million Vada Pavs every single day!"
+  "गुरुकृपा स्नॅक्स २०१४ पासून कल्याणचे आवडते कडक आयटम्स आणि आमची क्लासिक्स सर्व्ह करत आहे!",
+  "प्रसिद्ध वडा पाव १९६६ मध्ये दादर स्टेशनबाहेर महाराष्ट्रातच जन्मला!",
+  "महाराष्ट्राची मिसळ पाव जगातील सर्वात चविष्ट शाकाहारी पदार्थ म्हणून ओळखली गेली!",
+  "समोसा मूळचा मध्य पूर्वेतील — तिथे त्याला 'संबोसा' म्हणत!",
+  "परफेक्ट भज्जी तळायला अगदी ७ मिनिटे लागतात!",
+  "मुंबईतील स्ट्रीट फूड विक्रेते दररोज २ कोटींहून अधिक लोकांना खाऊ घालतात!",
+  "पाव भाजी मूळची कापड गिरणी कामगारांसाठी झटपट जेवण म्हणून बनवली गेली!",
+  "मुंबईत दररोज २० लाखांहून अधिक वडा पाव विकले जातात!"
 ];
 
 // ============================================
@@ -366,7 +366,7 @@ const MenuSystem = {
     }
     
     if (!this.menuData || this.menuData.length === 0) {
-      menuGrid.innerHTML = '<p class="col-span-full text-center text-xl text-charcoal">Menu items coming soon! 🍽️</p>';
+      menuGrid.innerHTML = '<p class="col-span-full text-center text-xl text-charcoal">मेनू आयटम्स लवकरच येत आहेत! 🍽️</p>';
       return;
     }
     
