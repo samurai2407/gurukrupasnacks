@@ -60,7 +60,7 @@ describe('Menu Card Properties', () => {
       
       fc.assert(
         fc.property(
-          fc.constantFrom('all', 'legends', 'triangles', 'crisp'),
+          fc.constantFrom('all', 'legends', 'triangles', 'crisp', 'sweets'),
           (category) => {
             // Get all menu cards
             const menuCards = document.querySelectorAll('.menu-card');
@@ -315,7 +315,7 @@ describe('Menu Card Properties', () => {
       menuCards.forEach(card => {
         const category = card.getAttribute('data-category');
         expect(category).toBeTruthy();
-        expect(['legends', 'triangles', 'crisp']).toContain(category);
+        expect(['legends', 'triangles', 'crisp', 'sweets']).toContain(category);
       });
     });
     

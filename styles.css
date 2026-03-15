@@ -11,7 +11,8 @@
   --turmeric-yellow: #FDB913;
   --chutney-green: #7CB342;
   --bhagwa-saffron: #FF671F;
-  --rice-white: #FAFAFA;
+  --deep-maroon: #8B0000;
+  --rice-white: #FFF9E6;
   --charcoal: #333333;
   
   /* Semantic Colors */
@@ -19,7 +20,7 @@
   --background-accent: var(--turmeric-yellow);
   --text-primary: var(--charcoal);
   --text-inverse: var(--rice-white);
-  --accent-primary: var(--bhagwa-saffron);
+  --accent-primary: var(--deep-maroon);
   --accent-secondary: var(--chutney-green);
   
   /* Typography */
@@ -81,7 +82,7 @@ body {
 }
 
 .bg-chili {
-  background-color: var(--bhagwa-saffron);
+  background-color: var(--deep-maroon);
 }
 
 .bg-rice-white {
@@ -101,7 +102,7 @@ body {
 }
 
 .text-chili {
-  color: var(--bhagwa-saffron);
+  color: var(--deep-maroon);
 }
 
 .text-rice-white {
@@ -113,7 +114,7 @@ body {
 }
 
 .bg-chili-dark {
-  background-color: #E65100;
+  background-color: #6B0000;
 }
 
 /* ============================================
@@ -140,7 +141,7 @@ body {
   left: 50%;
   width: 0;
   height: 2px;
-  background-color: var(--bhagwa-saffron);
+  background-color: var(--deep-maroon);
   transition: width var(--transition-normal) var(--ease-default),
               left var(--transition-normal) var(--ease-default);
 }
@@ -229,14 +230,14 @@ body {
 .filter-btn:focus {
   outline: none;
   ring: 4px;
-  ring-color: var(--bhagwa-saffron);
+  ring-color: var(--deep-maroon);
   ring-opacity: 0.5;
 }
 
 .filter-btn.active {
-  background-color: var(--bhagwa-saffron);
+  background-color: var(--deep-maroon);
   color: var(--rice-white);
-  border-color: var(--bhagwa-saffron);
+  border-color: var(--deep-maroon);
 }
 
 .menu-grid {
@@ -299,7 +300,7 @@ body {
 .item-price {
   font-size: 1.25rem;
   font-weight: 600;
-  color: var(--bhagwa-saffron);
+  color: var(--deep-maroon);
   margin: 0;
 }
 
@@ -386,7 +387,7 @@ body {
 
 /* Focus visible styles for keyboard navigation */
 *:focus-visible {
-  outline: 3px solid var(--bhagwa-saffron);
+  outline: 3px solid var(--deep-maroon);
   outline-offset: 2px;
 }
 
@@ -396,7 +397,7 @@ body {
   left: -9999px;
   z-index: 999;
   padding: 1rem;
-  background-color: var(--bhagwa-saffron);
+  background-color: var(--deep-maroon);
   color: var(--rice-white);
   text-decoration: none;
 }

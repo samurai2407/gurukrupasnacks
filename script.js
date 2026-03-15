@@ -14,82 +14,174 @@ const CONFIG = {
 
 // Menu Data
 const menuData = [
-  // The Legends Category
+  // Aamchi Classics (Vada & Misal)
   {
     id: 1,
-    name: "Vada Pav",
-    price: 20,
-    description: "The OG Mumbai burger that puts Big Macs to shame! Spicy potato fritter sandwiched in soft pav with chutneys.",
-    funnyFact: "💡 Sold every 2 seconds in Mumbai!",
+    name: "Single Vada",
+    price: 15,
+    description: "The classic batata vada — crispy on the outside, fluffy spiced potato on the inside. Pure Maharashtrian soul food.",
+    funnyFact: "🔥 The foundation of every great Vada Pav starts here!",
     category: "legends",
-    imageSrc: "https://placehold.co/600x400/FDB913/333333?text=Vada+Pav"
+    imageSrc: "https://placehold.co/600x400/FDB913/333333?text=Single+Vada"
   },
   {
     id: 2,
-    name: "Misal Pav",
-    price: 40,
-    description: "Spicy sprout curry that'll wake up your taste buds and your neighbors! Topped with farsan and served with pav.",
-    funnyFact: "🌶️ The spicier, the better - it's a Maharashtrian rule!",
+    name: "Vada Pav",
+    price: 20,
+    description: "Gurukrupa's signature Thecha Vada Pav! Spicy potato fritter in soft pav with fiery thecha chutney that packs a punch.",
+    funnyFact: "💡 Our Thecha Vada Pav is what Kalyan dreams about!",
     category: "legends",
-    imageSrc: "https://placehold.co/600x400/E53935/FAFAFA?text=Misal+Pav"
+    imageSrc: "https://placehold.co/600x400/8B0000/FFF9E6?text=Vada+Pav"
   },
-  
-  // The Golden Triangles Category
   {
     id: 3,
+    name: "Vada Usal Pav",
+    price: 60,
+    description: "Crispy vada topped with spicy usal curry and served with buttery pav. A hearty combo that fills your belly and soul.",
+    funnyFact: "🍛 The ultimate power combo — vada meets usal!",
+    category: "legends",
+    imageSrc: "https://placehold.co/600x400/FDB913/333333?text=Vada+Usal+Pav"
+  },
+  {
+    id: 4,
+    name: "Misal Pav",
+    price: 60,
+    description: "Spicy sprouted moth curry loaded with farsan, onions, and lemon. Served with soft pav to tame the heat.",
+    funnyFact: "🌶️ Kalyan's misal hits different — ask any local!",
+    category: "legends",
+    imageSrc: "https://placehold.co/600x400/8B0000/FFF9E6?text=Misal+Pav"
+  },
+  {
+    id: 5,
+    name: "Misal",
+    price: 50,
+    description: "The fiery sprouted moth curry on its own — no pav, just pure spicy goodness topped with crunchy farsan.",
+    funnyFact: "😤 For those who don't need pav to handle the heat!",
+    category: "legends",
+    imageSrc: "https://placehold.co/600x400/FDB913/333333?text=Misal"
+  },
+  {
+    id: 6,
+    name: "Kanda Pohe",
+    price: 20,
+    description: "Fluffy flattened rice tempered with mustard seeds, curry leaves, and topped with fresh onions and coriander. A Maharashtrian breakfast staple.",
+    funnyFact: "☀️ No Maharashtrian morning is complete without pohe!",
+    category: "legends",
+    imageSrc: "https://placehold.co/600x400/7CB342/FFF9E6?text=Kanda+Pohe"
+  },
+  {
+    id: 7,
+    name: "Idli",
+    price: 30,
+    description: "Soft, fluffy steamed rice cakes served with coconut chutney and sambar. Light, healthy, and utterly satisfying.",
+    funnyFact: "🫧 Perfectly steamed — soft as clouds, every single time!",
+    category: "legends",
+    imageSrc: "https://placehold.co/600x400/FFF9E6/333333?text=Idli"
+  },
+
+  // Garama Garam (Samosa & Kachori)
+  {
+    id: 8,
     name: "Samosa",
     price: 15,
-    description: "Crispy pyramids of potato perfection! Golden-fried pastry filled with spiced potatoes and peas.",
+    description: "Crispy golden pyramids stuffed with spiced potatoes and peas. The OG Indian snack that never disappoints.",
     funnyFact: "🌍 Originated in the Middle East, perfected in India!",
     category: "triangles",
     imageSrc: "https://placehold.co/600x400/FDB913/333333?text=Samosa"
   },
   {
-    id: 4,
-    name: "Kachori",
-    price: 18,
-    description: "Flaky, spicy, and dangerously addictive! Round puffed pastry with spiced lentil filling.",
+    id: 9,
+    name: "Samosa Pav",
+    price: 20,
+    description: "A whole samosa tucked inside soft pav with tangy chutneys. The street food sandwich that started a revolution.",
+    funnyFact: "🥪 When samosa met pav, magic happened!",
+    category: "triangles",
+    imageSrc: "https://placehold.co/600x400/8B0000/FFF9E6?text=Samosa+Pav"
+  },
+  {
+    id: 10,
+    name: "Bread Cutlet",
+    price: 20,
+    description: "Crispy bread slices stuffed with spiced potato filling, coated in breadcrumbs and fried to golden perfection.",
+    funnyFact: "🍞 The snack that makes plain bread exciting!",
+    category: "triangles",
+    imageSrc: "https://placehold.co/600x400/FDB913/333333?text=Bread+Cutlet"
+  },
+  {
+    id: 11,
+    name: "Sadhi Kachori",
+    price: 20,
+    description: "Flaky, crispy pastry shell filled with a spiced moong dal mixture. Simple, classic, and dangerously addictive.",
     funnyFact: "😎 The round cousin of samosa with more attitude!",
     category: "triangles",
-    imageSrc: "https://placehold.co/600x400/7CB342/FAFAFA?text=Kachori"
-  },
-  
-  // The Crisp Cartel Category
-  {
-    id: 5,
-    name: "Onion Bhajiya",
-    price: 25,
-    description: "Crispy onion fritters that crunch louder than your thoughts! Perfect with chai on a rainy day.",
-    funnyFact: "☔ Best enjoyed during Mumbai's monsoon season!",
-    category: "crisp",
-    imageSrc: "https://placehold.co/600x400/FDB913/333333?text=Onion+Bhajiya"
+    imageSrc: "https://placehold.co/600x400/7CB342/FFF9E6?text=Sadhi+Kachori"
   },
   {
-    id: 6,
-    name: "Mixed Pakoda",
+    id: 12,
+    name: "Dahi Kachori",
     price: 30,
-    description: "A crispy medley of vegetables in chickpea batter! Every bite is a surprise party in your mouth.",
-    funnyFact: "🤫 Every household has their own secret pakoda recipe!",
+    description: "Crispy kachori topped with cool yogurt, tangy tamarind chutney, and spicy green chutney. Sweet, sour, and crunchy all at once.",
+    funnyFact: "🎭 Sweet, sour, spicy, crunchy — all in one bite!",
+    category: "triangles",
+    imageSrc: "https://placehold.co/600x400/8B0000/FFF9E6?text=Dahi+Kachori"
+  },
+
+  // Kadak Items (Bhajji)
+  {
+    id: 13,
+    name: "Moong Bhajji",
+    price: 35,
+    description: "Crispy moong dal fritters seasoned with green chillies and spices. Crunchy, protein-packed, and perfect with chai.",
+    funnyFact: "💪 Protein-packed crunch — guilt-free snacking!",
     category: "crisp",
-    imageSrc: "https://placehold.co/600x400/7CB342/FAFAFA?text=Mixed+Pakoda"
+    imageSrc: "https://placehold.co/600x400/FDB913/333333?text=Moong+Bhajji"
   },
   {
-    id: 7,
-    name: "Bread Pakoda",
-    price: 22,
-    description: "Bread slices stuffed with spicy potato filling, dipped in gram flour batter and deep-fried to golden perfection!",
-    funnyFact: "🍞 The ultimate comfort food that makes bread exciting again!",
+    id: 14,
+    name: "Batata Bhajji",
+    price: 30,
+    description: "Thin potato slices dipped in spiced gram flour batter and fried until golden and crispy. Simple yet irresistible.",
+    funnyFact: "🥔 Thin, crispy, and gone before you know it!",
     category: "crisp",
-    imageSrc: "https://placehold.co/600x400/E53935/FAFAFA?text=Bread+Pakoda"
+    imageSrc: "https://placehold.co/600x400/7CB342/FFF9E6?text=Batata+Bhajji"
   },
   {
-    id: 8,
-    name: "Pav Bhaji",
-    price: 50,
-    description: "Buttery mashed vegetables served with soft pav bread. A Mumbai street food icon that's basically a hug in a plate!",
-    funnyFact: "🧈 The more butter, the better - that's the golden rule!",
-    category: "legends",
-    imageSrc: "https://placehold.co/600x400/FDB913/333333?text=Pav+Bhaji"
+    id: 15,
+    name: "Kanda Bhajji",
+    price: 30,
+    description: "Crispy onion fritters that crunch louder than your thoughts. The ultimate monsoon companion with a hot cup of chai.",
+    funnyFact: "☔ Best enjoyed during Maharashtra's monsoon season!",
+    category: "crisp",
+    imageSrc: "https://placehold.co/600x400/FDB913/333333?text=Kanda+Bhajji"
+  },
+
+  // Sweets & Farsan
+  {
+    id: 16,
+    name: "Gulachi Jalebi",
+    price: 240,
+    description: "Crispy, syrup-soaked spirals of pure joy. Made fresh with traditional jaggery syrup for that authentic Maharashtrian sweetness.",
+    funnyFact: "🍯 Jaggery jalebi — the real desi way to satisfy your sweet tooth!",
+    category: "sweets",
+    imageSrc: "https://placehold.co/600x400/FDB913/333333?text=Gulachi+Jalebi"
+  },
+  {
+    id: 17,
+    name: "Fafda",
+    price: 280,
+    description: "Crispy, crunchy gram flour strips seasoned with ajwain and black pepper. A beloved Gujarati-Maharashtrian farsan staple.",
+    funnyFact: "📐 The crunchier the fafda, the happier the snacker!",
+    category: "sweets",
+    imageSrc: "https://placehold.co/600x400/7CB342/FFF9E6?text=Fafda"
+  },
+  {
+    id: 18,
+    name: "Dhokla",
+    price: 240,
+    description: "Soft, spongy steamed gram flour cake tempered with mustard seeds and curry leaves. Light, tangy, and utterly moreish.",
+    funnyFact: "🧽 So soft and spongy, it practically melts in your mouth!",
+    category: "sweets",
+    imageSrc: "https://placehold.co/600x400/FDB913/333333?text=Dhokla"
   }
 ];
 
